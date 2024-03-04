@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_gradient"
+    tools:context=".MainScreenActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/myCardView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        >
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enjoy your day!"
+                android:textSize="30sp"
+                android:gravity="center_horizontal"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="100dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:id="@+id/login"
+                    android:textColor="@color/white"
+                    android:text="@string/existing"
+                    android:background="@drawable/register_btn_bg"
+                    android:layout_height="60dp"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="150dp"
+                    android:id="@+id/register"
+                    android:textColor="@color/white"
+                    android:layout_alignParentEnd="true"
+                    android:text="@string/register"
+                    android:background="@drawable/register_btn_bg"
+                    android:layout_height="60dp"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

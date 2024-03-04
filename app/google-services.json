@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "673038808501",
+    "project_id": "text-to-speech-b69c9",
+    "storage_bucket": "text-to-speech-b69c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673038808501:android:c7a2929c676837d72d15fc",
+        "android_client_info": {
+          "package_name": "com.magicia.textspeech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673038808501-ku7hrcg0gdiqi2u8h88mjm3ndaiiidh0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.magicia.textspeech",
+            "certificate_hash": "f2cabf98de43e1bb83e2bfd178286dd16f56c1d9"
+          }
+        },
+        {
+          "client_id": "673038808501-aes344293693r2cr297128hbh9umq0i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL81AWw49LKD3EpOiBBwiBnTfB5Jh7FSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673038808501-aes344293693r2cr297128hbh9umq0i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

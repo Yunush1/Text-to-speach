@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/nav_bar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/textField"
+            android:padding="5dp"
+            android:inputType="textMultiLine|text"
+            android:gravity="start|center"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:hint="@string/enter_something"
+            android:background="@drawable/text_bg_outline"
+            tools:ignore="TextViewEdits" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="60dp">
+            <LinearLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/speaker"
+                    android:src="@drawable/speaker"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="60dp"
+                android:gravity="center"
+                android:id="@+id/mic"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/common_google_signin_btn_icon_light_normal_background"
+                android:layout_height="60dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/mic" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="@string/enter_file_name"
+            android:layout_marginTop="20dp"
+            android:id="@+id/filename"
+            android:autofillHints="" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:text="File name"
+            android:id="@+id/save"
+            android:textColor="@color/white"
+            android:background="@drawable/register_gradient"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
